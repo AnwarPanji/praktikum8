@@ -6,12 +6,20 @@ Kelas   : TI.22.C1
 
 ```
 
+```bash
+
 Buat program sederhana dengan mengaplikasikan penggunaan class. Buatlah
 class untuk menampilkan daftar nilai mahasiswa, dengan ketentuan:
+
 • Method tambah() untuk menambah data
+
 • Method tampilkan() untuk menampilkan data
+
 • Method hapus(nama) untuk menghapus data berdasarkan nama
+
 • Method ubah(nama) untuk mengubah data berdasarkan nama
+
+```
 
 
 
@@ -54,6 +62,7 @@ class untuk menampilkan daftar nilai mahasiswa, dengan ketentuan:
             print(f'{((self.tugas[i] * 30 / 100) + (self.uts[i] * 35 / 100) + (self.uas[i] * 35 / 100)) :.2f}', " |")
 ```
 
+
 - dan buatlah Method ubah() ini berfungsi sebagai menu mengubah data yang telah diinput, Inputan tersebut didalamnya terdapat atribut nama, Sedangkan untuk penginputan sebuah nim, tugas, uts, dan uas dapat kita ubah sesuai kebutuhan.
 
 ```bash
@@ -64,6 +73,7 @@ def ubah(self, nim, nama, tugas, uts, uas):
         self.uts[no] = uts
         self.uas[no] = uas
 ```
+
 
 - selanjutnya buatlah Method hapus() ini berfungsi untuk penghapusan sebuah data pada program yang sebelumnya telah diinput. Dan inputan dari kodingan ini berdasarkan "nama" yang sebelumnya telah diinput. 
 
@@ -78,6 +88,8 @@ def hapus(self):
 
 - Untuk menjalankan program sama seperti tugas sebelumnya,kita bisa input melalui masing-masing methods, seperti pada sebuah while loop yang didalamnya Terdapat conditional.
 - yang terakhir jika data sudah selesai diinput, Pilih menu ke (Keluar) yaitu "k", Maka program secara otomatis akan berhenti. 
+
+
 
 ### Berikut Codingannya
 
@@ -200,26 +212,38 @@ while True:
         print("\nPerintah yang dimasukkan salah!\n")
 ```
 
+
+
 ### Hasil Output
 
 - Menambahkan Data dengan input "t" dan Menampilkan Data dengan input "l"
 
 ![image](screenshot/1b.png)
 
+
 - Mengubah Data dengan input "u"
 
 ![image](screenshot/2b.png)
+
 
 - Menghapus Data dengan input "h"
 
 ![image](screenshot/3b.png)
 
+
 - Keluar dengan input "k"
 
 ![image](screenshot/4b.png)
 
+
+
+
 ### Berikut Flowchartnya
 
 ![image](screenshot/s1.jpg)
+
+
+
+
 
 TERIMA KASIH
